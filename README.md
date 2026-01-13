@@ -2,8 +2,12 @@
 
 This project is a **serverless Retrieval-Augmented Generation (RAG) chatbot** built on AWS that allows users to ask questions about **AWS Solutions Architect certification topics** using a **small PDF document** as the knowledge source.
 
+![Alt Text](image_url)
+
 The system uses **Amazon Titan Embeddings G1 – Text** to generate vector representations of the PDF content, stores them in **Amazon S3 Vectors**, and generates responses using **Meta LLaMA 3** via **AWS Bedrock**.
 All infrastructure is managed with **Terraform**, following a secure, scalable, and fully serverless design.
+
+![Alt Text](image_url)
 
 ---
 
@@ -58,6 +62,8 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 * Native integration with Bedrock and S3 Vectors
 * Ideal for static website hosting and document storage
 
+  ![Alt Text](image_url)
+
 ---
 
 ### 2. Amazon Titan Embeddings G1 – Text
@@ -101,6 +107,9 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 4. Amazon CloudFront
 
+![Alt Text](image_url)
+
+
 **Role:**
 
 * Distributes the frontend globally with low latency
@@ -129,6 +138,9 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 6. AWS Lambda
 
+![Alt Text](image_url)
+
+
 **Role:**
 
 * Orchestrates the RAG workflow
@@ -150,6 +162,9 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 ---
 
 ### 7. AWS Bedrock
+
+![Alt Text](image_url)
+
 
 **Role:**
 
@@ -192,6 +207,10 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 ---
 
 ### 10. Terraform (Infrastructure as Code)
+
+![Alt Text](image_url)
+![Alt Text](image_url)
+
 
 **Role:**
 
