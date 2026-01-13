@@ -2,12 +2,12 @@
 
 This project is a **serverless Retrieval-Augmented Generation (RAG) chatbot** built on AWS that allows users to ask questions about **AWS Solutions Architect certification topics** using a **small PDF document** as the knowledge source.
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Gemini_Generated_Image_pfecp9pfecp9pfec.png)
 
 The system uses **Amazon Titan Embeddings G1 – Text** to generate vector representations of the PDF content, stores them in **Amazon S3 Vectors**, and generates responses using **Meta LLaMA 3** via **AWS Bedrock**.
 All infrastructure is managed with **Terraform**, following a secure, scalable, and fully serverless design.
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(363).png)
 
 ---
 
@@ -62,7 +62,7 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 * Native integration with Bedrock and S3 Vectors
 * Ideal for static website hosting and document storage
 
-  ![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(368).png)
 
 ---
 
@@ -107,7 +107,7 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 4. Amazon CloudFront
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(365).png)
 
 
 **Role:**
@@ -124,7 +124,7 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 5. Amazon API Gateway (HTTP API)
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(366).png)
 
 **Role:**
 
@@ -140,7 +140,7 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 6. AWS Lambda
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(367).png)
 
 
 **Role:**
@@ -165,7 +165,7 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 7. AWS Bedrock
 
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(364).png)
 
 
 **Role:**
@@ -210,8 +210,8 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 10. Terraform (Infrastructure as Code)
 
-![Alt Text](image_url)
-![Alt Text](image_url)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(355).png)
+![Alt Text](https://github.com/Naveen15github/Serverless-RAG-Chatbot-on-AWS/blob/9a4ee3ab27f236d2337555614017e63254476943/Screenshot%20(356).png)
 
 
 **Role:**
