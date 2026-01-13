@@ -271,7 +271,7 @@ This ensures **high relevance and minimal hallucination**, using **AWS-native em
 
 ## Author
 
-**Naveen**
+**Naveen G**
 Cloud | Serverless | AI Engineering
 
 ---
