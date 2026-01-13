@@ -124,6 +124,8 @@ The PDF acts as the **single source of truth**, ensuring all answers are strictl
 
 ### 5. Amazon API Gateway (HTTP API)
 
+![Alt Text](image_url)
+
 **Role:**
 
 * Exposes a `/query` endpoint for chat requests
